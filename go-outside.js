@@ -1,14 +1,11 @@
-var raining = true;
-var cold = false;
+var temperature = 12;
 
-if (raining) {
-  console.log('Dont forget your umbrella!');
-}
-
-if (cold) {
-  console.log('Make sure you pick out a scarf');
+if (temperature < 0) {
+  console.log('Make sure ya get yer scarf!');
+} else if (temperature < 15) {
+  console.log('Don\'t forget yer sleeves!');
 } else {
-  console.log('Short sleeves are fine.');
+  console.log('Cut yer sleeves off!');
 }
 
-console.log('Now you\'re ready to go outside');
+console.log('Now yer ready to go fer a rip!');
